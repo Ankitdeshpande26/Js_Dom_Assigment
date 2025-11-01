@@ -1,0 +1,53 @@
+.container{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 12px
+}
+.box{
+    background-color: white;
+    outline: 0.1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 2px;
+    
+}
+.circle{
+    border-radius: 50%;
+}
+#Form1 {
+  display: flex;
+    /* input aur button ko ek ke niche ek rakhne ke liye */
+  justify-content: center;
+  align-items: center;
+  margin-right: 400px;
+    gap: 10px;
+    
+}
+input {
+  padding: 5px;
+  font-size: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 400px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #2e2e2e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
